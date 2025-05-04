@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-*s+2)__tx89x=xp*881-_i(8*#*#mkhlc*l@nui&vd**+16w@*
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://tmdbapi.onrender.com',
-    'https://movie-app-vzwv.vercel.app',
+    'tmdbapi.onrender.com',
+    'movie-app-vzwv.vercel.app',
 ]
 
 
