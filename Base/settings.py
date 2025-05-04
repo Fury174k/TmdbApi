@@ -56,7 +56,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'Base.urls'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  
+    'http://localhost:5173',
+    "https://movie-app-vzwv.vercel.app",
 ]
 
 REST_FRAMEWORK = {
