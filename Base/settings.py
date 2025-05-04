@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-*s+2)__tx89x=xp*881-_i(8*#*#mkhlc*l@nui&vd**+16w@*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://tmdbapi.onrender.com',
+    'https://movie-app-vzwv.vercel.app'
+    ]
 
 
 # Application definition
@@ -56,7 +58,9 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'Base.urls'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  
+    'http://localhost:5173',
+    'https://tmdbapi.onrender.com',
+    'https://movie-app-vzwv.vercel.app',
 ]
 
 REST_FRAMEWORK = {
